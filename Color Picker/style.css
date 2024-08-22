@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+
+body {
+text-align:center;
+background-color:black;
+text-transform:capitalize;
+font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+
+#rgb {
+margin-left: 450px;
+width: 700px;
+height:auto;
+border-style:solid;
+border-width: 3px;
+border-radius:200px;
+border-color:black;
+background-color:#ffffff;
+font-family: 'Poiret One', bold, sans-serif;
+transition: all 1s;
+}
+
+#rgb:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+    border-color: rgb(120, 120, 120);
+}
+
+h3 {
+background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.ddg{
+width:20%;
+height: 50px;
+font-weight: bold;
+float:right;
+background-color:#FFFFFF;
+padding-top: 15px;
+padding-left:15px;
+padding-right:5px;
+margin:20px;
+border-radius:50%;
+margin-right:auto;
+margin-left:auto;
+}
+
+.space {
+width:90% ;
+height:auto ;
+font-family: 'Poiret One', cursive, sans-serif;
+}
+
+#red {
+-webkit-appearance: none !important;
+background:red;
+height:10px;
+border-style:solid;
+border-width: 1px;
+border-radius:200px;
+border-color:black;
+transition: all 0.5s;
+cursor: -webkit-grab;
+}
+
+#red:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+#green {
+-webkit-appearance: none !important;
+background:green;
+height:10px;
+border-style:solid;
+border-width: 1px;
+border-radius:200px;
+border-color:black;
+transition: all 0.5s;
+cursor: -webkit-grab;
+}
+
+#green:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+#blue {
+-webkit-appearance: none !important;
+background:blue;
+height:10px;
+border-style:solid;
+border-width: 1px;
+border-radius:200px;
+border-color:black;
+transition: all 0.5s;
+cursor: -webkit-grab;
+}
+
+#blue:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+a {
+color: white;
+}
